@@ -1,0 +1,15 @@
+{
+  "name": "interface",
+  "description": "Interface",
+  "main": "index.js",
+  "authors": [
+    "Adrian de la Rosa <adrian@delarosab.me>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "interface",
+    "es6",
+    "es2015"
+  ],
+  "homepage": "https://github.com/adelarosab/interface"
+}

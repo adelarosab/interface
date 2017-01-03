@@ -1,19 +1,15 @@
-(function(root, factory) {
-  if (typeof define === 'function' && define.amd) {
-    define(factory);
-  } else if (typeof exports === 'function' && typeof module !== 'undefined') {
-    module.exports = factory();
-  }
-}(this, function() {
-  return function Interface(prototype) {
-    return function(parent = function() {}) {
-      for (let key in prototype) {
-        if (prototype.hasOwnProperty(key)) {
-          parent.prototype[key] = prototype[key];
-        }
-      }
+function Interface(prototype) {
+  return function(parent = class {}) {
+    const base = class {};
 
-      return parent;
-    };
+    Object.assign(
+      base.prototype,
+      parent,
+      prototype
+    );
+
+    return base;
   };
-}));
+};
+
+export {Interface, Interface as default};
