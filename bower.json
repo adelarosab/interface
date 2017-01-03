@@ -1,15 +1,16 @@
 {
-  "name": "interface",
-  "description": "Interface",
-  "main": "index.js",
   "authors": [
     "Adrian de la Rosa <adrian@delarosab.me>"
   ],
-  "license": "MIT",
+  "description": "Interface simulation for ES2015 (ES6) classes",
+  "homepage": "https://github.com/adelarosab/interface",
   "keywords": [
     "interface",
     "es6",
     "es2015"
   ],
-  "homepage": "https://github.com/adelarosab/interface"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "interface",
+  "version": "1.0.0"
 }
