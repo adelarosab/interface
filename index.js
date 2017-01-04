@@ -1,10 +1,9 @@
 function Interface(prototype) {
   return function(parent = class {}) {
-    const base = class {};
+    const base = class extends parent {};
 
     Object.assign(
       base.prototype,
-      parent,
       prototype
     );
 
