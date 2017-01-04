@@ -61,7 +61,7 @@ let myViewModel = new ViewModel();
 
 ```
 
-Note: If you need to use "multiple inheritance" as javascript inheritance is 
+Note: If you need to use multiple interfaces as javascript inheritance is 
 based on prototyping and mixins, you should keep in mind last element used 
 around is overriding duplicated methods.
 
