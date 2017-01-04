@@ -1,7 +1,13 @@
 # interface
 Interface simulation for ES2015 (ES6) classes.
 
-First at all, you need to import interface.
+## Bower
+```bash
+bower install interface
+```
+
+## How it works
+Import interface library.
 ```javascript
 import Interface from 'interface';
 ```
@@ -49,7 +55,7 @@ class Model extends Observable() {
 }
 ```
 
-So if you want to extend a class with a proper interface:
+So if you want to extend a class with an interface:
 ```javascript
 
 const Renderable = Interface({
@@ -61,7 +67,7 @@ const Renderable = Interface({
 class ViewModel extends Renderable(Model) {}
 
 let myViewModel = new ViewModel();
-
+myViewModel.render(); // it works
 ```
 
 Note: If you need to use multiple interfaces as javascript inheritance is 
