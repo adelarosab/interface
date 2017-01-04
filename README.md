@@ -4,7 +4,10 @@ Interface simulation for ES2015 (ES6) classes.
 First at all, you need to import interface.
 ```javascript
 import Interface from 'interface';
-// import {Interface} from 'interface';
+```
+or
+```javascript
+import {Interface} from 'interface';
 ```
 
 Create our interface.
